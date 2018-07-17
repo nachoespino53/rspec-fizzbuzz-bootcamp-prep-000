@@ -3,7 +3,10 @@
 
 def fizzbuzz(arg)
   arg = arg.to_i
-  if arg % 3 == 0
+  if arg % 3 == 0 || arg % 5 == 0
+    return "FizzBuzz"
+  end
+  elsif arg % 3 == 0
     return "Fizz"
   end
   elsif arg & 5 == 0
