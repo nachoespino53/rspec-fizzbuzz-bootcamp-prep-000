@@ -10,4 +10,5 @@ def fizzbuzz(arg)
     return "Buzz"
   else
     return nil
+  end
 end
