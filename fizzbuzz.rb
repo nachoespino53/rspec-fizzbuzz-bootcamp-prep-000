@@ -2,6 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(arg)
+  arg = arg.to_i
   if arg % 3 == 0
     return "Fizz"
   end
