@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(arg)
-  if arg % 3 == 0 || arg % 5 == 0
+  if arg % 3 == 0 && arg % 5 == 0
     return "FizzBuzz"
   elsif arg % 3 == 0
     return "Fizz"
